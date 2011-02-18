@@ -1,0 +1,42 @@
+a {
+	background: inherit;
+	text-decoration: none;
+	color: #667F99;	
+}
+#main {
+	float: left;	
+	width: 72%;
+	padding: 0;	margin: 0;	
+}
+#main h1 {
+	color: #667F99; 
+	border-bottom: 1px solid #CCCCCC;
+	background: #F6F6F6 url(../images/arrow.gif) no-repeat 5px 50%;	
+	padding: 3px 0 3px 20px;	
+	margin: 10px 0 0 0;
+} 
+
+ .post-footer {
+	background-color: #FAFAFA;
+	padding: 5px; margin: 20px 10px 0 10px;
+	border: 1px solid #f2f2f2;
+	font-size: 95%;	
+}
+.post-footer .date {
+	background: url(../images/clock.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+	background: url(../images/comment.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+	background: url(../images/page.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+blockquote {
+	margin: 5px;
+ 	padding: 0 0 0 28px;  
+   border: 1px solid #f2f2f2; 
+  	background: #FAFAFA url(../images/quote.gif) no-repeat 5px 5px;    
+}

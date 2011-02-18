@@ -9,3 +9,7 @@ posts:
 langage:
   url:   /language
   param: { module: changeLanguage, action: index }
+  
+comments:
+  class:    sfDoctrineRouteCollection
+  options:  { module: comments, model: comment, prefix_path: /posts/:post_id/comments }  
