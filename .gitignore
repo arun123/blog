@@ -1,0 +1,13 @@
+*.tmproj
+.DS_Store
+data/sql/*
+tmp/**/*
+cache/*
+log/*
+logs/*
+
+config/databases.yml
+config/ProjectConfiguration.class.php
+
+public/uploads/**/*
+public/uploads/*
