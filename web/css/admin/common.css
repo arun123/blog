@@ -1,0 +1,622 @@
+/* ================================================= */
+/* This file created by Aivah                        */
+/* Dated: 3rd Feb 2009	                             */
+/* Copyright : 2009 Aivah.com                        */
+/* Stylesheet: common.css                            */
+/* ================================================= */
+
+
+html, body, div, span, small, object, iframe, h1, h2, h3, h4, h5, h6, pre, a, abbr, blockquote, acronym, address, code, del, dfn, dl, dt, dd, em, img, q, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, b, p {
+border : 0;
+font-size : 100%;
+font-family : inherit;
+}
+img,  input { behavior: url("iepngfix.htc") }
+body {
+/*background : #d5d5d5;*/
+background: #FFF;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 12px;
+line-height : 1.5em;
+color : #000000;
+margin : 0;
+}
+.clearfix:after {
+content : ".";
+display : block;
+clear : both;
+visibility : hidden;
+line-height : 0;
+height : 0;
+}
+.clearfix {
+display : inline-block;
+}
+html[xmlns] .clearfix {
+display : block;
+}
+* html .clearfix {
+height : 1%;
+}
+#wrapper {
+width : 100%;
+height : auto;
+margin : auto;
+}
+#toppart {
+width : 100%;
+height : auto;
+margin : auto;
+}
+#footer {
+width : 100%;
+height : 35px;
+margin : auto;
+}
+p.copyright {
+color : #AAA;
+text-align: center;
+font : 1em Arial, Helvetica, sans-serif;
+margin : auto;
+padding : 10px 20px;
+}
+#header {
+background : #ffffff url(../../images/admin/header.gif) repeat-x center left;
+height : 75px;
+width : 100%;
+}
+
+#subheader {
+background : #e22d1b;
+border-top: solid 1px #000;
+border-bottom: solid 1px #333;
+height : 5px;
+width : 100%;
+}
+
+.logo {
+margin : auto;
+padding : 5px 5px 0 5px;
+margin-left: 15px;
+}
+#header span {
+padding : 30px 30px;
+font : bold 1em Arial, Helvetica, sans-serif;
+color : #484848;
+}
+#header span small {
+font : 11px Arial, Helvetica, sans-serif;
+color : #f64e40;
+}
+.logo a:link {
+color : #484848;
+}
+.logo a:hover {
+color : #ffffff;
+}
+/* ================================================= */
+/* 	 COLUMN CSS                               */
+/* ================================================= */
+
+#middlepart {
+overflow : auto;
+height : 100%;
+background : #fff;
+margin : auto;
+padding : 20px 20px;
+
+/*background: #fff url(../../images/admin/bg.gif) repeat-x;*/
+
+}
+
+#maincolumn {
+width : 98%;
+padding : 10px 10px;
+background : #f4f4f4;
+-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+float : left;
+border: 1px solid #cdcdcd;
+}
+
+#leftcolumn {
+width : 70%;
+padding : 10px 10px;
+background : #ffffff;
+float : left;
+}
+#rightcolumn {
+width : 25%;
+padding : 10px;
+background : #ffffff;
+float : right;
+}
+
+/* ================================================= */
+/* 	 ToP MENU CSS                               */
+/* ================================================= */
+#menu {
+background : #f0f0f0;
+height : 31px;
+width : 100%;
+border-bottom: 1px solid #CCC;
+}
+#menu .topmenu {
+width : 900px;
+margin : auto;
+}
+/* ================================================= */
+/* 	 Settings MENU   CSS                               */
+/* ================================================= */
+.settingsblock
+{
+width:auto;
+padding:5px 10px 5px 10px;
+height:50px;
+margin-right: 25px;
+clear:both;
+
+}
+.settingsblock div
+{
+float:left;
+font:normal 2em Arial, Helvetica, sans-serif;
+color:#CCCCCC;
+padding:20px 0 0 10px;
+}
+.settingsblock div a:visited, .settingsblock div a:active, .settingsblock div a:link
+{
+background :url(../../images/admin/arrow.gif) 0% 50% no-repeat;
+padding:10px 10px;
+float:left;
+}
+.settingsblock img
+{ vertical-align:middle;}
+
+.settingsblock a:link, .settingsblock a:visited, .settingsblock a:active
+{ border:0px solid #d9d9d9;
+display:inline-block;
+margin:5px 5px 0 0;
+float:right;
+padding:5px;
+color:#000;
+font:normal 10px tahoma, Helvetica, sans-serif;
+font-weight:bold;
+text-align:center;
+}
+.settingsblock a:hover
+{ 
+	color: #E22D1B;
+}
+/* ================================================= */
+/* 	 SUB MENU   CSS                               */
+/* ================================================= */
+#submenu {
+background : #fff URL(../../images/admin/submenu.gif) top left repeat-x;
+padding : 1px 10px;
+}
+#submenu ul {
+margin : 0;
+padding : 5px;
+}
+#submenu li {
+list-style : none;
+display : inline;
+font-weight : bold;
+margin : 0 3px 0 0;
+padding : 4px 10px;
+}
+#submenu li a {
+color : #ececec;
+}
+#submenu li:hover {
+color : #fff;background:URL(../../images/admin/menutop.gif) 50% 0% no-repeat;
+}
+#submenu li.iehoversm {
+color : #fff;background:URL(../../images/admin/menutop.gif) 50% 0% no-repeat;
+}
+
+#submenu li a:hover {
+color : #fff;
+}
+
+/* ================================================= */
+/* 	 SIDEBAR MENU CSS                              */
+/* ================================================= */
+#sidebarmenu {
+background : #fff;
+padding : 1px 0px;
+}
+#sidebarmenu ul {
+margin : 0;list-style : none;
+padding : 0px;
+}
+#sidebarmenu li {
+list-style : none;
+font-weight : bold;
+line-height:25px;
+margin : 0 0px 1px 0;
+padding : 4px 10px;
+border-left:5px solid #414141;
+background : #ededed;
+}
+#sidebarmenu li a {
+color : #414141;
+}
+#sidebarmenu li:hover {
+color : #f64e40;
+}
+#sidebarmenu li a:hover {
+color : #f64e40;
+}
+#sidebarmenu .activesub
+{
+color:#f64e40;
+}
+/* ================================================= */
+/* 	 SEARCH BAR CSS ITEMS                          */
+/* ================================================= */
+.searchbar
+{
+float:right;
+padding: 3px 20px 0 0;
+text-transform:uppercase;
+color:#fff;
+}
+.searchbar input
+{
+padding:0px 10px;
+}
+#submenu img
+{
+vertical-align:middle;
+}
+/* ================================================= */
+/* 	 Login Box CSS ITEMS                              */
+/* ================================================= */
+.loginform {
+border-top : 0px solid #414141;
+padding : 10px;
+}
+#login form .remember {
+float : left;
+}
+form.loginform label { float:left;}
+form.loginform input { clear:left;}
+#login .forgot {
+clear : both;
+float : left;
+}
+#login form .submit input {
+padding : 3px 8px;
+border : none;
+background : #39b54a;
+text-transform : uppercase;
+text-decoration : none;
+color : #ffffff;
+}
+#login form .submit input:hover {
+padding : 3px 8px;
+border : none;
+color : #ffffff;
+background : #007236;
+text-decoration : none;
+text-transform : uppercase;
+}
+form .submit {
+float : right;
+}
+#login {
+width : 550px;
+margin : 1em auto;
+}
+#userpass, #userlogin, #useremail {
+font-size : 12px;
+width : 97%;
+padding : 3px;
+}
+.vmiddle 
+{
+ vertical-align:middle;
+}
+/* ================================================= */
+/* 	 COMMON CSS ITEMS                              */
+/* ================================================= */
+a:link, a:visited, a:active {
+color: #404040;
+text-decoration : none;
+}
+a:hover {
+color : #E22D1B;
+text-decoration : none;
+}
+
+#header a:link, #header a:visited, #header a:active {
+color: #f1f1f1;
+text-decoration : none;
+}
+#header a:hover {
+color : #E22D1B;
+text-decoration : none;
+}
+
+h1 {
+font-size : 250%;
+margin : 10px 10px;
+font-weight : normal;
+}
+h2 {
+font-size : 210%;
+margin : 8px 8px;
+font-weight : normal;
+}
+h3 {
+font-size : 180%;
+margin : 7px 7px;
+font-weight : normal;
+}
+h4 {
+font-size : 140%;
+margin : 5px 5px;
+font-weight : normal;
+}
+h5 {
+font-size : 110%;
+margin : 5px 5px;
+font-weight : normal;
+}
+h6 {
+font-size : 92.5%;
+margin : 5px 5px;
+font-weight : normal;
+}
+pre, code {
+font : 1em/1.4em "Courier News", monospace;
+color : #484848;
+line-height : 1.5em;
+}
+/* ================================================= */
+/* 	 MESSAGE BOX CSS                               */
+/* ================================================= */
+.success {
+background : #e0ecd1 url(../../images/admin/success.gif) no-repeat 12px 50%;
+border : 1px solid #60a400;
+border-width : 5px 0 0 0;
+color : #60a400;
+}
+.error {
+background : #ffe3e1 url(../../images/admin/error.gif) no-repeat 12px 50%;
+border : 1px solid #f14545;
+border-width : 5px 0 0 0;
+color : #f14545;
+}
+.notice {
+background : #fff0db url(../../images/admin/warning.gif) no-repeat 12px 50%;
+border : 1px solid #e7a74c;
+border-width : 5px 0 0 0;
+color : #e7a74c;
+}
+.notice, .success, .error {
+font-size : 100%;
+padding : 10px;
+width : auto;
+margin : 0 0 20px 0;
+text-align : left;
+}
+.notice span, .success span, .error span {
+font-weight : bold;
+font-size : 18px;
+padding : 2px 40px;
+}
+.success p, .error p, .notice p {
+margin : 0;
+padding : 0 40px;
+color : #333333;
+}
+/* ================================================= */
+/* 	 LIST ITEMS CSS                                   */
+/* ================================================= */
+.nums ul {
+margin : 0;
+padding : 0 10px;
+}
+.nums li {
+list-style : decimal;
+}
+.squares ul {
+margin : 0;
+padding : 0 10px;
+}
+.squares li {
+list-style : square;
+padding : 0;
+}
+.circles ul {
+margin : 0 10px;
+padding : 0 10px;
+float : right;
+}
+.circles li {
+list-style : circle;
+vertical-align : top;
+}
+/* ================================================= */
+/* 	 RIGHTCOLUMN BOX CSS                               */
+/* ================================================= */
+.notes {
+background : #e8e8e8;
+border : 1px solid #c5c5c5;
+border-top : 7px solid #414141;
+}
+.notes {
+font-size : 100%;
+color : #484848;
+padding : 20px;
+width : auto;
+margin : 0 0 10px 0;
+text-align : left;
+}
+.notes p {
+margin : 0;
+padding : 0;
+clear : both;
+}
+.notes span {
+font-weight : bold;
+font-size : 1.2em;
+padding-bottom : 2px;
+margin-bottom : 10px;
+}
+/* ================================================= */
+/* 	 PAGINATION CSS                               */
+/* ================================================= */
+.pagelink {
+width : 10px;
+background : #e7e8e8 url(../../images/admin/page.gif) repeat-x bottom left;
+border : 1px solid #b2b2b2;
+color : #787878;
+clear : both;
+line-height : 35px;
+text-decoration : none;
+}
+a.pagelink:active, a.pagelink:visited, a.pagelink:link {
+width : 10px;
+background : url(../../images/admin/page.gif) repeat-x bottom left;
+border : 1px solid #b2b2b2;
+color : #787878;
+padding : 6px;
+}
+a.pagelink:hover {
+width : 10px;
+background : #fff url(../../images/admin/page.gif) repeat-x bottom left;
+border : 1px solid #b2b2b2;
+color : #f64e40;
+padding : 6px;
+}
+.pagecurrent {
+width : 10px;
+background : #fff url(../images/page.gif) repeat-x bottom left;
+border : 1px solid #b2b2b2;
+color : #f64e40;
+padding : 6px;
+}
+/* ================================================= */
+/* 	 Small Box CSS                               */
+/* ================================================= */
+.mainbox {
+width : auto;
+}
+div.boxcontainer {
+color : #888;
+width : 30%;
+float : left;
+height: auto;
+-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+font : normal 10px Tahoma, Arial, Helvetica, sans-serif;
+background : #ffffff;
+padding : 5px;
+margin : 5px;
+border : 1px solid #e7e7e7;
+}
+.boxcontainer h4 {
+float : none;
+font-size : 18px;
+margin : 0;
+font-family : Arial, Tahoma, Verdana, Sans-serif;
+padding-bottom : 2px;
+}
+.boxcontainer h4 {
+padding : 5px 0 5px 0;
+}
+a img.box_thumb, a:visited img.box_thumb {
+float : left;
+margin-right : 10px;
+padding : 5px;
+border : 1px solid #7a7a7a;
+background : #7a7a7a;
+}
+a:hover img.box_thumb {
+background : #fff;
+}
+
+
+
+/* ================================================= */
+/* 	 TABLE BUTTONS CSS                               */
+/* ================================================= */
+
+a.submit:visited,a.submit:active,a.submit:link,   
+a.add:visited,a.add:active,a.add:link,   
+a.publish:visited,a.publish:active,a.publish:link,   
+a.edit:visited,a.edit:active,a.edit:link,   
+a.delete:visited,a.delete:active,a.delete:link,
+a.reset:visited,a.reset:active,a.reset:link
+					{
+	width:auto;
+	margin: 0 2px 0 0;
+	padding: 2px 8px;
+	text-transform: uppercase;
+	font:bold 10px "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: #fff;
+	white-space:nowrap;text-decoration:none;
+}
+	
+a.publish 	{ background: #afd2ea; color:#ffffff; }
+a.publish:hover { background: #0072bc; color:#ffffff;}
+
+a.edit { background: #949ca1; color:#000000;}
+a.edit:hover { background: #727c82; color: #ffffff; }
+
+a.delete { background: #ffb5b5; color:#ffffff; }
+a.delete:hover { background: #d80047; color:#ffffff;}
+
+a.add { background: #99d177; color:#ffffff; }
+a.add:hover { background: #00a651; color:#ffffff;}
+
+a.reset { background: #96aabf; color:#ffffff; }
+a.reset:hover { background: #6f7f90; color:#ffffff;}
+
+a.submit { background: #12486b; color:#ffffff; }
+a.submit:hover { background: #000000; color:#ffffff;}
+
+
+#sub_attention {
+	background: #fff url("../../images/admin/caption.gif") repeat-x;
+	width: 100%;
+	height: 30px;
+	float: left;
+	display: inline;
+	position: relative;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+}
+
+
+#sub_attention ul {
+float: right;
+margin-top: 5px;
+margin-bottom: 0px;
+display: inline;
+position: relative;
+width: auto;
+padding-right: 20px;
+}
+
+#sub_attention ul li {
+	float: right;
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+	position: relative;
+	border-right: 1px solid #999;
+	padding-right: 10px;
+}
+
+#sub_attention ul li a.status_active {
+	font-size: 12px;
+	border: 1px solid #30CC3F;
+	padding: 4px;
+}
+
+#sub_attention ul li.last {
+	border: none;
+}

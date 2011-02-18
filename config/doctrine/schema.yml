@@ -1,0 +1,24 @@
+post:
+  actAs:
+    Timestampable:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+    title:
+      type: string(255)
+    body:
+      type: clob
+    published:
+      type: boolean
+    description:
+      type: string(255)
+    keywords:
+      type: string(255)
+    robots:
+      type: string(255)
+    author:
+      type: string(255)

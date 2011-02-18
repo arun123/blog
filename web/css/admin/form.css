@@ -1,0 +1,135 @@
+fieldset.form {
+	width: 750px;
+	float: left;
+	position: relative;
+	display: inline;
+}
+
+#right_form {
+  float: left;
+  width: 200px;
+	position: relative;
+	display: inline;
+}
+
+div.field {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.field label {
+  width:200px;
+  float:left;
+	text-align: left;		
+}
+
+div.field input {
+	float: left;
+}
+
+div.field textarea {
+	border: 1px solid #ddd;
+	background: #EAF4FD;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 500px;
+	float: left;
+	margin-bottom: 10px;
+	height: 148px;
+	overflow: visible;
+}
+
+div.field select {
+	border: 1px solid #ddd;
+	background: #EAF4FD;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 350px;
+	float: left;
+	margin: 0 0px 0 0;
+}
+
+div.field .text-long {
+	border: 1px solid #ddd;
+	background: #EAF4FD;
+	color: #646464;
+	padding: 5px 7px;
+	width: 500px;
+	float: left;
+	margin: 0 0px 0 0;
+}
+
+div.field .text-medium {
+	border: 1px solid #ddd;
+	background: #EAF4FD;
+	color: #646464;
+	padding: 5px 7px;
+	width: 250px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+div.field .text-small {
+	border: 1px solid #ddd;
+	background: #EAF4FD;
+	color: #646464;
+	padding: 5px 7px;
+	width: 150px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+div.field .text-long:focus, 
+div.field .text-medium:focus,
+div.field .text-small:focus,
+div.field textarea:focus { 
+  background: #fdfcf6; 
+}
+
+div.label_only {
+	float: left;
+	font-size: 17px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.help {
+	color: #929292;
+	margin-left: 210px;
+	font-size: 10px;
+	float: left;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+div.labeling {
+	width: 100%;	
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.submit_form {
+  margin-top: 10px;
+}
+
+.message_errors {
+	margin-left: 165px;
+	color: red;
+}
+
+#select_content {
+	float: left; margin-left: 10px;
+}
+
+.form_separator {
+	background-color: #ccc;
+	height: 1px;
+	width: 100%;
+	float: left;
+}

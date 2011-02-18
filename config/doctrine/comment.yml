@@ -1,0 +1,11 @@
+comment:
+  columns:
+    post_id:     { type: integer(4) }
+    name:       { type: string(255) }
+    description:  { type: string(255) }
+  relations:
+    post:
+      alias:        post
+      foreignType:  many
+      foreignAlias: comments
+      onDelete:     cascade

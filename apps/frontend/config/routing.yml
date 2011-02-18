@@ -1,16 +1,12 @@
-# You can find more information about this file on the symfony website:
-# http://www.symfony-project.org/reference/1_4/en/10-Routing
+posts:
+  class:    sfDoctrineRouteCollection
+  options:  { module: posts, model: post }
 
-# default rules
-homepage:
+welcome:
   url:   /
-  param: { module: default, action: index }
+  param: { module: welcome, action: index }
 
-# generic rules
-# please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
 
-default:
-  url:   /:module/:action/*
+comments:
+  class:    sfDoctrineRouteCollection
+  options:  { module: comments, model: comment, prefix_path: /posts/:post_id/comments }

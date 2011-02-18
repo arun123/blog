@@ -9,5 +9,5 @@ logs/*
 config/databases.yml
 config/ProjectConfiguration.class.php
 
-public/uploads/**/*
-public/uploads/*
+web/uploads/**/*
+web/uploads/*

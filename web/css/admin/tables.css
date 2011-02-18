@@ -1,0 +1,75 @@
+/* ================================================= */
+/* This file created by Aivah                        */
+/* Dated: 30th Nov 2008	                             */
+/* Copyright : 2008 Aivah.com                        */
+/* Stylesheet: tables.css                            */
+/* ================================================= */
+table {
+		border-collapse:collapse;
+		background:#ffffff;
+		font-size:11px;
+		border: 1px solid #CCC;
+		color: #333;
+		
+}
+td, th 	{padding:5px; text-align:center; vertical-align:top; border:1px solid #cacaca; border-width:1px 0px 1px 0px; }
+td.left	{padding: 5px 10px 10px 10px; text-align:left; vertical-align:top; }
+th.left	{padding:5px; text-align:left; vertical-align:top; }
+
+caption 	{
+		padding: 5px 10px;
+		text-align: left;
+		font:bold 14px "Trebuchet MS", Georgia, "Times New Roman", Times, sans-serif;
+		text-transform: uppercase;
+		background:#414141 url(../../images/admin/caption.gif) repeat-x;
+		width:auto;
+		color: #414141;
+}
+
+/* ================================================= */
+/* Menu Link                                         */
+/* ================================================= */
+
+table a {text-decoration:none;}
+table a:link {}
+table a:visited {}
+
+/* ================================================= */
+/* Heads Footer                                      */
+/* ================================================= */
+
+thead th{
+background:#F7F7F7;
+color:#666;
+font:bold 8pt "Lucida Grande", Arial, Helvetica, sans-serif; 
+text-transform:uppercase;
+}
+tfoot th{
+background:#414141 url(../../images/admin/menu.gif) repeat-x;
+font:bold 8pt "Lucida Grande", Arial, Helvetica, sans-serif; 
+color:#FFFFFF;
+text-transform:uppercase;
+text-align:left;
+}
+tfoot td 				
+{
+background:url(../../images/admin/caption.gif) repeat-x;
+}
+
+th.capt 				
+{
+background: #FAFAFA;
+text-align:left;
+color:#000;
+font:bold 14px "Trebuchet MS", Georgia, "Times New Roman", Times, sans-serif;
+text-transform: uppercase;
+}
+/* ================================================= */
+/* Table Body                                        */
+/* ================================================= */
+
+tbody th, tbody td 	{}
+tbody th 			{white-space: nowrap;}
+tbody th a 			{color:#333;}
+.odd 				{}
+td img 			{padding:0 15px;}
